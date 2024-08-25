@@ -47,7 +47,7 @@ function App() {
   };
 
   const onEnter = () => {
-    console.log(correctWord);
+    // console.log(correctWord);
     if (currAttempt.letterPos !== 5) return;
 
     // check if the word is inside the set
